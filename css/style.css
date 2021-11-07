@@ -1,0 +1,157 @@
+/* Universal Selector */
+* {
+    /*property sets how the total width and height of an element is calculated.*/
+    box-sizing: border-box;
+    padding: 0;
+     /* Sets all sides to 0px */
+    margin: 0;
+}
+
+body  {
+    /* Sets background color */
+    background-color: #d9dcd6; 
+}
+/* Class header select all elements with that class */
+.header {
+     /* Sets padding on all sides to 20px */
+    padding: 20px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+     /* Sets display of all elements with class selector to block */
+    display: inline-block;
+     /* Font-size property sets the size of a font */
+    font-size: 48px;    
+}
+
+/* Class header select all elements with div that class */
+.header div {
+     /* Shortcut method sets top padding to 15px */
+    padding-top: 15px;
+    /* Sets top and bottom margin-right to 20px */
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.header div ul li {
+    list-style-type: none;
+    /* Sets display of all elements with class selector to block */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Class hero select all elements with that class */
+.hero {
+    /*Sets the height and width of the section */
+    height: 800px;
+    width: 100%;
+    /* Sets bottom margin to 25px */
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Class .float-left select all elements of img with that class */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Class content select all elements with that class */
+section {
+    /*Sets the width of the section */
+    width: 75%;
+    /* Sets display of all elements with class selector to inline */
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Class benefits select all elements with that class */
+.benefits {
+    margin-right: 20px;
+     /* Sets padding on all sides to 20px */
+    padding: 20px;
+    clear: both;
+    float: right;
+    /*Sets the height and width of the section */
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Class benefit-op select all elements with that class */
+.benefit-op {
+    /* Sets bottom margin to 32 */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Class benefit-op and h3 select all elements with that class whit netx elements*/
+.benefit-op h3 {
+    /* Sets bottom margin to 10 */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Class betefit-op select all elements with that class with img display - outside */
+.benefit-op img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Class optimization select all elements with that class */
+.optimization {
+    margin-bottom: 20px;
+     /* Sets padding on all sides to 50px */
+    padding: 50px;
+    /*Sets the height of the section */
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Class optimization select all elements of img with that class */
+.optimization img {
+    max-height: 200px;
+}
+
+
+.optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* footer select all elements with that class */
+footer {
+     /* Sets padding on all sides to 30px */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+ h2 {
+    font-size: 20px;
+}
